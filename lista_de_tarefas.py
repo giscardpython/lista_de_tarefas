@@ -1,3 +1,4 @@
+import os
 
 # a lista de tarefas
 tarefas = []
@@ -13,7 +14,11 @@ while True:
     else:
         break
 
+os.system('cls')
+
+# print(f'{'-'*30} LISTA DE TAREFAS {'-'*30}\n')
+print(f'LISTA DE TAREFAS')
+
 # exibe a lista ao final
-print('\nLista de Tarefas do dia: ')
 for tarefa in tarefas:
     print(tarefa)
